@@ -7,6 +7,13 @@
 
 body {
   margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
 }
 
 body button,
@@ -578,13 +585,21 @@ footer .footer-icons .linke {
   }
 
   .fifth .fith-img-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 3px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    width: auto;
   }
 
   .fifth .text-fifth h5 {
@@ -593,5 +608,10 @@ footer .footer-icons .linke {
 
   .fifth .text-fifth p {
     font-size: 12px;
+  }
+  
+
+  .manImage{
+    max-width: 100%;
   }
 }

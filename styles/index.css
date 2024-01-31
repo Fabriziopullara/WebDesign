@@ -1,3 +1,6 @@
+
+
+
 body {
   margin: 0;
   align-items: center;
@@ -46,11 +49,21 @@ body :hover {
   right: 0;
   left: 0;
   z-index: -1;
-  background-image: url(../images/image1.png); /* Replace with your image URL */
+  background-image: url(../images/image1.png);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-color: #ffffff;
+  animation: slide 15s linear infinite; 
+}
+
+/* Define the animation keyframes */
+@keyframes slide {
+  0% {
+    background-position: 10% 0%;
+  }
+  100% {
+    background-position: 100% 60%;
+  }
 }
 
 .search-section {
@@ -109,12 +122,27 @@ body :hover {
   right: 0;
   left: 0;
   z-index: -1;
-  background-image: url(../images/Rectangle41444.png); /* Replace with your image URL */
+  background-image: url(../images/Rectangle41444.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-color: #ffffff;
+  animation: zoomIn 12s ease-in-out infinite;
 }
+
+/* Define the animation keyframes */
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 .text-second {
   max-width: 100%;
@@ -284,11 +312,22 @@ nav ul li {
   right: 0;
   left: 0;
   z-index: -1;
-  background-image: url(../images/Rectangle\ 41445.png); /* Replace with your image URL */
+  background-image: url(../images/Rectangle\ 41445.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-color: #ffffff;
+  animation: pulsate 6s ease-in-out infinite; /* Add animation property here */
+}
+
+/* Define the animation keyframes */
+@keyframes pulsate {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
 
 .fourth {
