@@ -1,0 +1,488 @@
+body {
+  margin: 0;
+}
+
+body button,
+body i, 
+body :hover {
+  cursor: pointer;
+}
+
+.first-part-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.first-part-container h1 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.first-part-container h3 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.first-part-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/image1.png); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+.search-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-section input {
+  max-width: 100%;
+  width: 100%;
+  height: 43px;
+  text-align: center;
+}
+
+.search-section button {
+  max-width: 100%;
+  width: 100%;
+  height: 48px;
+  background-color: #5474fd;
+  color: #fff;
+  font-family: "Aleo", serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.second-part {
+  max-width: 100%;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second-part:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/Rectangle41444.png); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+.text-second {
+  max-width: 100%;
+}
+
+.text-second h3 {
+  color: #fff;
+  font-family: "Aleo", serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.text-second p {
+  color: #e8e8e8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 3.2px;
+}
+
+.text-second button {
+  background-color: #496bfe;
+  font-family: "Aleo", serif;
+  color: #fff;
+  width: 179px;
+  height: 26px;
+}
+
+.images-second {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.images-second .moving-img {
+  position: relative;
+  right: 80px;
+}
+
+.down-second {
+  max-width: 100%;
+  height: 340px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+}
+
+.down-second .down1,
+.down-second .down2,
+.down-second .down3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 353px;
+  height: 163px;
+}
+
+.down-second .down1 p,
+.down-second .down2 p,
+.down-second .down3 p {
+  color: #e8e8e8;
+  font-family: "Aleo", serif;
+  font-size: 25px;
+}
+
+.down-second .down1 i {
+  color: #5474fd;
+  font-size: 50px;
+}
+
+.down-second .down2 i {
+  color: #ff6363;
+  font-size: 50px;
+}
+
+.down-second .down3 i {
+  color: #00a2ff;
+  font-size: 50px;
+}
+
+nav {
+  max-width: 100%;
+  height: 83px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5474FD;
+}
+
+
+
+
+nav h3 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  width: 117px;
+  height: 26px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: "Aleo", serif;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.third {
+  max-width: 100%;
+  height: 685px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.third .text-third {
+  max-width: 100%;
+  width: 100%;
+  height: 374px;
+  background-color: #232323;
+  opacity: 0.9;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 20px;
+}
+
+.third .text-third h6 {
+  font-size: 20px;
+}
+
+.third .text-third h5 {
+  font-size: 23px;
+}
+
+.third .text-third p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.third .text-third button {
+  width: 156px;
+  height: 56px;
+  background-color: #5474FD;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+}
+
+.third:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/Rectangle\ 41445.png); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+.fourth {
+  max-width: 100%;
+  height: 685px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.fourth .text-fourth {
+  max-width: 100%;
+  width: 100%;
+  height: 374px;
+  background-color: #232323;
+  opacity: 0.9;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 20px;
+}
+
+.fourth .text-fourth h6 {
+  font-size: 20px;
+}
+
+.fourth .text-fourth h5 {
+  font-size: 23px;
+}
+
+.fourth .text-fourth p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.fourth .text-fourth button {
+  width: 156px;
+  height: 56px;
+  background-color: #5474FD;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+}
+
+.fourth:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/Rectangle414452.png); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+.fifth {
+  max-width: 100%;
+  height: 685px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.fifth h3 {
+  font-size: 28px;
+  font-family: "Aleo", serif;
+}
+
+.fifth .fith-img-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+}
+
+.text-fifth {
+  max-width: 100%;
+  width: 100%;
+  height: 287px;
+  background-color: #333;
+  padding-left: 20px;
+}
+
+.text-fifth h5 {
+  font-size: 22px;
+}
+
+.text-fifth p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.fifth:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/man.png); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+footer {
+  max-width: 100%;
+  height: 271px;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-icons {
+  display: flex;
+  gap: 10px;
+}
+
+footer .footer-icons .linke {
+  color: #5474FD;
+}
+
+@media only screen and (max-width: 810px) {
+  .first-part-container h1 {
+    font-size: 30px;
+  }
+
+  .first-part-container h3 {
+    font-size: 20px;
+  }
+
+  .search-section {
+    flex-wrap: wrap;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  nav h3 {
+    font-size: 18px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    font-size: 11px; 
+    margin: 5px; 
+  }
+
+  .second-part {
+    flex-wrap: wrap;
+  }
+
+  .second-part h3 {
+    font-size: 17px;
+  }
+
+  .second-part p {
+    font-size: 9px;
+  }
+
+  .second-part img {
+    width: 250px;
+  }
+
+  .fifth .fith-img-text {
+    flex-direction: column;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+
+  .fifth .text-fifth h5 {
+    font-size: 25px;
+  }
+
+  .fifth .text-fifth p {
+    font-size: 12px;
+  }
+}
