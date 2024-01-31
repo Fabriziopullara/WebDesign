@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
 }
 
 body button,
@@ -473,9 +476,12 @@ footer .footer-icons .linke {
   }
 
   .fifth .fith-img-text {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 3px;
-    flex-wrap: wrap;
+    width: auto;
   }
 
   .fifth .text-fifth h5 {
@@ -484,5 +490,10 @@ footer .footer-icons .linke {
 
   .fifth .text-fifth p {
     font-size: 12px;
+  }
+  
+
+  .manImage{
+    max-width: 100%;
   }
 }
